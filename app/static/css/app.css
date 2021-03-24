@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 50px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr;
+}
+input[type="text"],
+textarea {
+  border: 2px solid #c4c4c4c4;
+  padding: 10px 20px;
+  resize: none;
+  display: block;
+  border-radius: 5px;
+}
+
+label {
+  margin: 10px 0;
+  font-weight: bold;
+}
+select {
+  display: block;
+}
+
+input[type="submit"],
+button {
+  background: #0ab2be;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  cursor: pointer;
+  background: #0f99a3;
+}
+
+input[type="file"] {
+  margin: 20px 0;
+}
+
+.long input,
+textarea {
+  width: 60%;
+}
+
+.card {
+  margin: 0 20px;
+}
+
+.card-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.property-photo {
+  height: 200px;
+  width: 100%;
+}
+.properties {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.properties button {
+  width: 100%;
+}
+
+.desc {
+  padding: 30px;
+}
+
+.property-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.bubble {
+  background-color: #0f99a3;
+  width: 40%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.bubbles div {
+  background-color: #53b396;
+  padding: 5px;
+  color: white;
+  margin-right: 30px;
+  border-radius: 30px;
+}
+
+.prop-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.prop-container img {
+  width: 90%;
+  height: 300px;
+}
+
+.bubbles {
+  display: flex;
+}
+
+.no-rooms,
+.location {
+  margin: 20px 0;
+}
